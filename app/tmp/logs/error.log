@@ -1,0 +1,64 @@
+2022-01-06 05:00:30 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /maki453/No25/
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(PagesController))
+#5 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2022-01-06 05:03:35 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /maki453/No25/
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(PagesController))
+#5 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2022-01-06 05:05:13 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /maki453/No25/
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(PagesController))
+#5 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2022-01-06 05:16:32 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /maki453/No25/blog_users/login
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-06 05:28:16 Error: [MissingViewException] View file "BlogUsers/password_reset.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'BlogUsers/password_reset.ctp',
+)
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('BlogUsers/passw...')
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
