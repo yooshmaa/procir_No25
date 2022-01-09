@@ -339,3 +339,96 @@ Stack Trace:
 #4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
 #5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2022-01-10 06:29:45 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 06:30:31 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:05:11 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:06:49 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:07:24 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:15:52 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:16:27 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:16:49 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:17:08 Error: [Error] Class 'CakeEmail' not found
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: BlogUsersController->passwordReset()
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-10 07:22:44 Error: [ConfigureException] Unknown email configuration "default".
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Network/Email/CakeEmail.php(1158): CakeEmail->_applyConfig('default')
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Network/Email/CakeEmail.php(362): CakeEmail->config('default')
+#2 /home/www/maki453/No25/app/Controller/BlogUsersController.php(177): CakeEmail->__construct('default')
+#3 [internal function]: BlogUsersController->passwordReset()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#5 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#7 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

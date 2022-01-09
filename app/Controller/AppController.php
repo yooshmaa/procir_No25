@@ -11,8 +11,7 @@
  */
 
 App::uses('Controller', 'Controller');
-App::uses('CakeEmail', 'Netword/Email');
-
+App::uses('CakeEmail', 'Network/Email');
 /**
  * Application Controller
  *

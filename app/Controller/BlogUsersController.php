@@ -167,6 +167,20 @@ class BlogUsersController extends AppController {
 
 		if ($current_user_info) {
 			echo $this->request->data['BlogUser']['email'] . 'にメールを送る処理';
+			/*
+			$Email = new CakeEmail();
+			$Email->from(array('me@example.com' => 'My Site'))
+				->to('you@example.com')
+				->subject('About')
+				->send('My message');
+			 */
+			$Email = new CakeEmail('default');
+			$Email->from(array('me@example.com' => 'My Site'))
+				->to('yooshioo.m@gmail.com')
+				->subject('About')
+				->send('test message');
+
+			echo 'sent mail';
 		} else {
 			echo 'メールを送ったふり';
 		}
