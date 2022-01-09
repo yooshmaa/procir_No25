@@ -4,7 +4,7 @@ App::uses('AppController', 'Controller');
 class BlogUsersController extends AppController {
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('add', 'logout', 'passwordReset');
+		$this->Auth->allow('add', 'logout', 'inputCurrentEmail', 'passwordReset');
 	}
 
 	public function index() {
@@ -152,8 +152,24 @@ class BlogUsersController extends AppController {
 		}
 	}
 
+	public function inputCurrentEmail() {
+		if ($this->Auth->user('id')) {
+			return $this->redirect(array('controller' => 'blog_posts', 'action' => 'index'));
+		}
+	}
+
 	public function passwordReset() {
-		echo 'reset password here';
+		$current_user_info = $this->BlogUser->find('first', array(
+			'conditions' => array(
+				'BlogUser.email' => $this->request->data['BlogUser']['email'] )
+			)
+		);
+
+		if ($current_user_info) {
+			echo $this->request->data['BlogUser']['email'] . 'にメールを送る処理';
+		} else {
+			echo 'メールを送ったふり';
+		}
 	}
 
 	public function logout() {

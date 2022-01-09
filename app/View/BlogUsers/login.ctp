@@ -11,5 +11,5 @@ echo $this->Form->input('password');
 ?>
 </fieldset>
 <?php echo $this->Form->end(__('ログイン')); ?>
-<?php echo $this->Html->link('パスワードを忘れた方はこちら', array('action' => 'passwordReset')); ?>
+<?php echo $this->Html->link('パスワードを忘れた方はこちら', array('action' => 'inputCurrentEmail')); ?>
 </div>
