@@ -166,21 +166,33 @@ class BlogUsersController extends AppController {
 		);
 
 		if ($current_user_info) {
+			$to = $current_user_info['BlogUser']['email'];
 			echo $this->request->data['BlogUser']['email'] . 'にメールを送る処理';
-			/*
-			$Email = new CakeEmail();
-			$Email->from(array('me@example.com' => 'My Site'))
-				->to('you@example.com')
-				->subject('About')
-				->send('My message');
-			 */
-			$Email = new CakeEmail('default');
-			$Email->from(array('me@example.com' => 'My Site'))
-				->to('yooshioo.m@gmail.com')
-				->subject('About')
-				->send('test message');
+			$url = 'https://procir-study.site/maki453/No25/blog_users/passwordReset?key=';
+			$password_reset_key = md5(uniqid(rand(), true));
+			$url .= $password_reset_key;
+			$send_url_date = date('Y-m-d H:i:s');
+			$main_message = 'パスワード再発行再発行URLは以下です。有効期限は30分です。' . "\r\n" . $url . "\r\n" . '30分を超えると無効になりますのでご注意ください。';
 
-			echo 'sent mail';
+			$data = array(
+				'BlogUser' => array(
+					'id' => $current_user_info['BlogUser']['id'],
+					'password_reset_key' => $password_reset_key,
+					'send_url_date' => $send_url_date
+				)
+			);
+
+			$update_columns = array('password_reset_key', 'send_url_date');
+			$this->BlogUser->save($data, false, $update_columns);
+
+			$Email = new CakeEmail('default');
+			$Email->from(array('from@hoge.co.jp' => 'プロサー掲示板'))
+				->to($to)
+				->subject('パスワード再発行')
+				->send($main_message);
+
+
+
 		} else {
 			echo 'メールを送ったふり';
 		}

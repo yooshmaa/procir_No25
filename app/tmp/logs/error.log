@@ -432,3 +432,49 @@ Stack Trace:
 #6 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
 #7 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2022-01-10 07:59:18 Error: [MissingControllerException] Controller class PasswordResetController could not be found.
+Exception Attributes: array (
+  'class' => 'PasswordResetController',
+  'plugin' => NULL,
+)
+Request URL: /maki453/No25/passwordReset?key=a33b616b47934920e1f20720dcba8bfb
+Stack Trace:
+#0 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-01-10 07:59:26 Error: [MissingControllerException] Controller class PasswordResetController could not be found.
+Exception Attributes: array (
+  'class' => 'PasswordResetController',
+  'plugin' => NULL,
+)
+Request URL: /maki453/No25/passwordReset?key=a33b616b47934920e1f20720dcba8bfb
+Stack Trace:
+#0 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-01-10 07:59:26 Error: [MissingControllerException] Controller class PasswordResetController could not be found.
+Exception Attributes: array (
+  'class' => 'PasswordResetController',
+  'plugin' => NULL,
+)
+Request URL: /maki453/No25/passwordReset?key=a33b616b47934920e1f20720dcba8bfb
+Stack Trace:
+#0 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-01-10 08:00:06 Error: [MissingControllerException] Controller class PasswordResetController could not be found.
+Exception Attributes: array (
+  'class' => 'PasswordResetController',
+  'plugin' => NULL,
+)
+Request URL: /maki453/No25/passwordReset?key=a33b616b47934920e1f20720dcba8bfb
+Stack Trace:
+#0 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-01-10 08:17:30 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordReset?key=1f1dfdb972780136ac00ec816331275e
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
