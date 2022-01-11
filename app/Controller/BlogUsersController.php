@@ -4,7 +4,7 @@ App::uses('AppController', 'Controller');
 class BlogUsersController extends AppController {
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('add', 'logout', 'inputCurrentEmail', 'passwordReset');
+		$this->Auth->allow('add', 'logout', 'inputCurrentEmail', 'sendMail', 'passwordResetForm');
 	}
 
 	public function index() {
@@ -158,7 +158,7 @@ class BlogUsersController extends AppController {
 		}
 	}
 
-	public function passwordReset() {
+	public function sendMail() {
 		$current_user_info = $this->BlogUser->find('first', array(
 			'conditions' => array(
 				'BlogUser.email' => $this->request->data['BlogUser']['email'] )
@@ -168,7 +168,7 @@ class BlogUsersController extends AppController {
 		if ($current_user_info) {
 			$to = $current_user_info['BlogUser']['email'];
 			echo $this->request->data['BlogUser']['email'] . 'にメールを送る処理';
-			$url = 'https://procir-study.site/maki453/No25/blog_users/passwordReset?key=';
+			$url = 'https://procir-study.site/maki453/No25/blog_users/passwordResetForm?key=';
 			$password_reset_key = md5(uniqid(rand(), true));
 			$url .= $password_reset_key;
 			$send_url_date = date('Y-m-d H:i:s');
@@ -192,10 +192,15 @@ class BlogUsersController extends AppController {
 				->send($main_message);
 
 
-
 		} else {
 			echo 'メールを送ったふり';
 		}
+	}
+
+	public function passwordResetForm() {
+		$this->request->query;
+		debug($this->request->query);
+		exit();
 	}
 
 	public function logout() {

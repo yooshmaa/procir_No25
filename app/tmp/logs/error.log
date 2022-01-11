@@ -478,3 +478,14 @@ Stack Trace:
 #4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
 #5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2022-01-10 18:58:01 Error: [MissingActionException] Action BlogUsersController::passwordReset() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogUsersController',
+  'action' => 'passwordReset',
+)
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#2 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
