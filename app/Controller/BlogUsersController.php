@@ -4,7 +4,7 @@ App::uses('AppController', 'Controller');
 class BlogUsersController extends AppController {
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('add', 'logout', 'inputCurrentEmail', 'sendMail', 'passwordResetForm');
+		$this->Auth->allow('add', 'logout', 'inputCurrentEmail', 'sendMail', 'passwordResetForm', 'passwordReset');
 	}
 
 	public function index() {
@@ -159,11 +159,16 @@ class BlogUsersController extends AppController {
 	}
 
 	public function sendMail() {
+		if ($this->Auth->user('id')) {
+			return $this->redirect(array('controller' => 'blog_posts', 'action' => 'index'));
+		}
+
 		$current_user_info = $this->BlogUser->find('first', array(
 			'conditions' => array(
 				'BlogUser.email' => $this->request->data['BlogUser']['email'] )
 			)
 		);
+
 
 		if ($current_user_info) {
 			$to = $current_user_info['BlogUser']['email'];
@@ -190,18 +195,75 @@ class BlogUsersController extends AppController {
 				->to($to)
 				->subject('パスワード再発行')
 				->send($main_message);
-
-
+			echo $message;
 		} else {
-			echo 'メールを送ったふり';
+			echo $message;
 		}
 	}
 
 	public function passwordResetForm() {
-		$this->request->query;
-		debug($this->request->query);
+		//ログインしていたらこちらに飛ばす
+		if ($this->Auth->user('id')) {
+			return $this->redirect(array('controller' => 'blog_posts', 'action' => 'index'));
+
+		}
+		//データベースからGETされたkeyを取得。取得できれば処理を進める。
+		$password_reset_info = $this->BlogUser->find('first', array(
+			'conditions' => array(
+				'BlogUser.password_reset_key' => $this->request->query['key'])
+			)
+		);
+
+		if ($password_reset_info['BlogUser']['password_reset_key'] == $this->request->query['key']) {
+			$current_time = strtotime('now');
+			$send_url_date = strtotime($password_reset_info['BlogUser']['send_url_date']);
+			if ($current_time - $send_url_date <= 30 * 60) {
+				$this->Flash->success(__('以下のフォームに新しいパスワードを入力してください。'));
+
+			} else {
+				$this->Flash->error(__('パスワード再発行用URLの有効期限が切れています'));
+				return $this->redirect(array('action' => 'login'));
+			}
+		} else {
+			$this->Flash->error(__('パスワード再発行用URLが正しくありません。'));
+			return $this->redirect(array('action' => 'login'));
+		}
+
+		if ($this->request->is(array('post', 'put'))) {
+			$new_password = $this->request->data['BlogUser']['password'];
+			$id = $password_reset_info['BlogUser']['id'];
+			$data = array(
+				'BlogUser' => array(
+					'id' => $id,
+					'password' => $new_password,
+					'send_url_date' => NULL,
+					'password_reset_key' => NULL
+				)
+			);
+
+			$update_columns = array('id', 'password', 'password_reset_key', 'send_url_date');
+
+			if ($this->BlogUser->save($data, false, $update_columns)) {
+				$this->Flash->success(__('パスワードを再設定しました。'));
+			} else {
+				$this->Flash->error(__('パスワードの再設定に失敗しました。'));
+			}
+		}
+	}
+/*
+	public function passwordReset() {
+		if ($this->Auth->user('id')) {
+			return $this->redirect(array('controller' => 'blog_posts', 'action' => 'index'));
+
+		}
+
+		$new_password = $this->request->data['BlogUser']['password'];
+
+		debug($new_password);
+		debug($this->request->data);
 		exit();
 	}
+ */
 
 	public function logout() {
 		$this->redirect($this->Auth->logout());

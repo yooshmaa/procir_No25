@@ -489,3 +489,288 @@ Stack Trace:
 #1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
 #2 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2022-01-11 10:02:20 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d26bd0135763dd9eb18b2acde6827e75
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 10:03:29 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d26bd0135763dd9eb18b2acde6827e75
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 10:03:36 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d26bd0135763dd9eb18b2acde6827e75
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 10:11:59 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d26bd0135763dd9eb18b2acde6827e75
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 10:12:46 Error: [MissingViewException] View file "BlogUsers/password_reset_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'BlogUsers/password_reset_form.ctp',
+)
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d26bd0135763dd9eb18b2acde6827e75
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('BlogUsers/passw...')
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-11 10:13:57 Error: [MissingViewException] View file "BlogUsers/password_reset_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'BlogUsers/password_reset_form.ctp',
+)
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d26bd0135763dd9eb18b2acde6827e75
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('BlogUsers/passw...')
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#4 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-01-11 13:27:08 Error: [MissingActionException] Action BlogPostsController::sendMail() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogPostsController',
+  'action' => 'sendMail',
+)
+Request URL: /maki453/No25/blog_posts/sendMail
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogPostsController), Object(CakeRequest))
+#2 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2022-01-11 14:12:40 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /maki453/No25/blog_users/sendMail
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 18:53:06 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=8145907aef29b7d460f2a3f899aed560
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 21:42:24 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=ec040acde9c057ee00056ebd8ccad5d2
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 22:11:48 Error: [ParseError] syntax error, unexpected '', array('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=e03ceadbd0953c6ad64d8353704666af
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 22:12:56 Error: [ParseError] syntax error, unexpected '', array('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=e03ceadbd0953c6ad64d8353704666af
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 22:13:00 Error: [ParseError] syntax error, unexpected '', array('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=e03ceadbd0953c6ad64d8353704666af
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 22:26:32 Error: [ParseError] syntax error, unexpected ';'
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-11 22:26:46 Error: [ParseError] syntax error, unexpected ';'
+Request URL: /maki453/No25/blog_users/login
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-12 10:09:06 Error: [MissingControllerException] Controller class UserImagesForCakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'UserImagesForCakephpController',
+  'plugin' => NULL,
+)
+Request URL: /maki453/No25/user_images_for_cakephp/128871083461d439503f7e54.88708623
+Stack Trace:
+#0 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-01-12 10:09:21 Error: [MissingControllerException] Controller class UserImagesForCakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'UserImagesForCakephpController',
+  'plugin' => NULL,
+)
+Request URL: /maki453/No25/user_images_for_cakephp/142309373161d390acbacb10.07870177.png
+Stack Trace:
+#0 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-01-12 14:23:28 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=a8ea4aec45e9663ae2835d5f62fe7b09
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-12 14:25:27 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=a8ea4aec45e9663ae2835d5f62fe7b09
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-12 14:26:08 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=50217e8b576a696c798b3ea0924734b8
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/www/maki4...', Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/home/www/maki4...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-12 14:26:39 Error: [MissingActionException] Action BlogUsersController::passwordReset() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogUsersController',
+  'action' => 'passwordReset',
+)
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#2 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2022-01-12 14:26:56 Error: [MissingActionException] Action BlogUsersController::passwordReset() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogUsersController',
+  'action' => 'passwordReset',
+)
+Request URL: /maki453/No25/blog_users/passwordReset
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#2 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2022-01-13 07:30:59 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /maki453/No25/blog_users/login
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-13 07:31:43 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /maki453/No25/blog_users/login
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-13 07:32:29 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /maki453/No25/blog_users/login
+Stack Trace:
+#0 [internal function]: App::load('BlogUsersContro...')
+#1 [internal function]: spl_autoload_call('BlogUsersContro...')
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('BlogUsersContro...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2022-01-13 07:34:29 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=d65d3f48a3c9a4cba6134d1e6c4a5680
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `pr...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(BlogUser), Array, Array)
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(NULL, Array)
+#5 /home/www/maki453/No25/app/Controller/BlogUsersController.php(257): Model->save(NULL, false, Array)
+#6 [internal function]: BlogUsersController->passwordResetForm()
+#7 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#8 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#10 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2022-01-13 08:50:54 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /maki453/No25/blog_users/passwordResetForm?key=a5febb6d5656b051d8f3dc9dc15a2e45
+Stack Trace:
+#0 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `pr...')
+#3 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(BlogUser), Array, Array)
+#4 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /home/www/maki453/No25/app/Controller/BlogUsersController.php(246): Model->save(Array, false, Array)
+#6 [internal function]: BlogUsersController->passwordResetForm()
+#7 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(BlogUsersController), Array)
+#8 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/www/maki453/No25/vendors/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BlogUsersController), Object(CakeRequest))
+#10 /home/www/maki453/No25/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
